@@ -1,0 +1,57 @@
+body {
+            font-family:cursive;
+            background: grey;
+            color: black;
+        }
+        header {
+            background: white;
+            color: black;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 36px;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 18px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px black;
+        }
+        .photo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .photo img {
+            width: 600px;
+            height: 500px;
+            border-radius: 5%;
+            object-fit: cover;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: black;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .social {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .social a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .social a:hover {
+            text-decoration: underline;
+        }
